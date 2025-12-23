@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Helixa | Rural Telemedicine</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="icon.png" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <h1>Helixa</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+            <a href="#scope">Scope</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Background Image -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+
+        <div class="hero-text">
+            <h2>Healthcare for Every Village</h2>
+            <p>
+                A low-cost, multilingual and low-bandwidth telemedicine platform
+                designed for rural communities.
+            </p>
+            <button onclick="startConsultation()">Start Consultation</button>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+
+            <!-- Left Image -->
+            <div class="about-image">
+                <img src="images/doctor.jpg" alt="Doctor Image" />
+            </div>
+
+            <!-- Right Content -->
+            <div class="about-content">
+                <h2>Why This Matters</h2>
+
+                <p>
+                    In and around Nabha, thousands of rural residents from over
+                    <strong>173 villages</strong> struggle to access timely healthcare.
+                    Long travel distances, limited medical staff, unavailable specialists,
+                    and medicine shortages force daily-wage earners and farmers to delay or
+                    completely avoid treatment.
+                </p>
+
+                <p>
+                    These delays often lead to preventable health complications,
+                    financial losses, and a decline in overall community well-being.
+                    Healthcare should not depend on location, connectivity, or income.
+                </p>
+
+                <p>
+                    <strong>Helixa</strong> is designed to bridge this gap by delivering
+                    low-cost, multilingual, and low-bandwidth telemedicine directly to
+                    rural communities. With offline-first access, secure digital records,
+                    and smart consultations, Helixa brings reliable healthcare
+                    closer to home.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Features -->
+    <section id="features" class="features-section">
+        <h2>Core Features</h2>
+
+        <div class="features-cards">
+
+            <div class="feature-card">
+                <img src="images/video.jpg" alt="Video Consultation">
+                <h3>Smart Video Consultation</h3>
+                <p>
+                    Low-bandwidth audio and video consultations that dynamically adapt
+                    to rural network conditions.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <img src="images/record.jpg" alt="Digital Records">
+                <h3>Digital Medical Records</h3>
+                <p>
+                    Secure patient records stored locally and synced automatically
+                    when connectivity returns.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <img src="images/wifi.jpg" alt="Offline Access">
+                <h3>Offline-First Access</h3>
+                <p>
+                    Enables healthcare access even without internet connectivity
+                    using local device storage.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <img src="images/med.jpg" alt="Medicine Availability">
+                <h3>Medicine Availability</h3>
+                <p>
+                    Real-time updates on essential medicines available at nearby
+                    local pharmacies.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <img src="images/ai.jpg" alt="AI Symptom Checker">
+                <h3>AI Symptom Checker</h3>
+                <p>
+                    Lightweight hybrid AI combining medical rules and predictive
+                    assistance for early guidance.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <img src="images/voice.jpg" alt="Language Support">
+                <h3>Multilingual & Voice Support</h3>
+                <p>
+                    Regional language support and voice prompts designed for elderly
+                    and first-time users.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Scope -->
+    <section id="scope" class="scope-section">
+        <div class="scope-container">
+
+            <!-- Left Content -->
+            <div class="scope-content">
+                <h2>Project Scope</h2>
+                <p class="scope-intro">
+                    Helixa is designed as a scalable, offline-first telemedicine platform
+                    that adapts to real rural healthcare challenges.
+                </p>
+
+                <div class="scope-grid">
+
+                    <div class="scope-item">
+                        <span>📹</span>
+                        <div>
+                            <h4>Consultation Access</h4>
+                            <p>Video and audio consultations optimized for low-bandwidth networks.</p>
+                        </div>
+                    </div>
+
+                    <div class="scope-item">
+                        <span>📂</span>
+                        <div>
+                            <h4>Medical Records</h4>
+                            <p>Secure digital records stored offline and synced automatically.</p>
+                        </div>
+                    </div>
+
+                    <div class="scope-item">
+                        <span>📴</span>
+                        <div>
+                            <h4>Offline-First Design</h4>
+                            <p>Works reliably even in areas with poor or no internet connectivity.</p>
+                        </div>
+                    </div>
+
+                    <div class="scope-item">
+                        <span>💊</span>
+                        <div>
+                            <h4>Medicine Availability</h4>
+                            <p>Real-time updates from nearby pharmacies for essential medicines.</p>
+                        </div>
+                    </div>
+
+                    <div class="scope-item">
+                        <span>🌐</span>
+                        <div>
+                            <h4>Scalable & Adaptable</h4>
+                            <p>Can be adapted across different states and rural health systems.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Right Image -->
+            <div class="scope-image">
+                <img src="images/doc.jpg" alt="Telemedicine scope illustration">
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+
+            <!-- Left: Contact Form -->
+            <div class="contact-form">
+                <h2>Get in Touch</h2>
+                <p>
+                    Have questions about Helixa or want to explore a demo?
+                    Reach out to us and we’ll get back to you.
+                </p>
+
+                <form>
+                    <input type="text" placeholder="Your Name" required />
+                    <input type="email" placeholder="Email Address" required />
+                    <textarea placeholder="Your Message" rows="4"></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Right: Illustration / Image -->
+            <div class="contact-image">
+                <img src="images/contact.jpg" alt="Contact Helixa">
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <p>© 2026 Helixa | CCP Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
